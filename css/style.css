@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  background-color: #fdf2e9;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.introduction {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.bio-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 2% 0% 2% 2%;
+  background-color: #fff;
+  width: 1200px;
+  align-content: center;
+  justify-content: center;
+  border-radius: 10px 10px;
+}
+
+.h1-container {
+  display: flex;
+  justify-content: center;
+}
+
+.bio-h1 {
+  color: #cf711f;
+  text-decoration: underline;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 2%;
+  width: 1100px;
+}
+.img {
+  width: 200px;
+}
+
+.bio-text {
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.pText {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.btn-container {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 7px 14px;
+  border-radius: 9px;
+
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  background-color: #e67e22;
+  color: #fff;
+
+  transition: all 0.3s;
+}
+.btn:hover,
+.btn:active {
+  background-color: #cf711f;
+  color: #fff;
+}
+
